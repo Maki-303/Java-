@@ -1,4 +1,4 @@
-package markjagonap;
+package maki;
 import java.util.Scanner;
 public class QuizGame1 {
 public static void main(String[] args) {
