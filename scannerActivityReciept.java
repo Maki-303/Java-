@@ -1,4 +1,4 @@
-package markjagonap;
+package maki;
 import java.util.Scanner;
 public class scannerActivity {
 
