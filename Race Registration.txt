@@ -1,0 +1,123 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title> My Registration Form</title>
+   
+    <form action="action_page.php" method="post"> 
+ <Center><h3 style="color: gold;"> Race Registration Form </h3> </Center>
+     <div> 
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter your Email" required> 
+    
+  <br>
+
+  <br>
+
+</div>
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." name="title" value="Mr."> 
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." name="title" value="Ms."> 
+    <label for="Mrs.">Mrs.</label>
+    <input type="radio" id="Mrs." name="title" value="Ms."> 
+      </div>
+      
+      <br>
+
+         <br>
+
+      <label for="Fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required>
+
+      <br>
+
+      <br>
+      
+      <label for="postalAddress">Complete Postal Mailing Address (with Postal Code & Country)</label><br>
+      <input type="textarea"  ="postalAddress" name="postalAddress" style="width: 40%;" placeholder="Enter Your Postal Address" required>
+
+     <br> 
+
+      <br>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your Phone number" required>
+      <label for="fax">Fax:</label>
+      <input type="tel" id="fax" name="fax">
+
+      <br> 
+
+      <br> 
+
+      <label for="occupation">Occupation:</label>
+       <input type="text" id="occupation" name="occupation" placeholder="Enter your occupation" required>
+       <label for="marital-status">Marital Status:</label required>
+        <select id="marital-status" name="marital-status">
+         <option value="single">Single</option>
+         <option value="married">Married</option>
+         <option value="divorced">Divorced</option>
+         <option value="widowed">Widowed</option>
+         </select>
+         <br> 
+
+      <br> 
+
+      <label for="EmergencyName">Emergency Contact</label>
+      <input type="text" id="phone" name="phone" placeholder="Enter your Name" required>
+      
+      <label for="emergencyEmail">Email:</label>
+      <input type="text" id="EmergencyEmail">Phone no:</label>
+      <input type="text" id="emergencyEmail" name="emergencyEmail">
+
+      <br> 
+
+      <br> 
+
+
+<label> Select Trip: </label><br>
+<Input type="checkbox" id="StageRace" name="trip" value="Stage Race"
+<Label for="StageRace"> Stage Race </Label>
+<Input type="checkbox" id="everestMarathon" name="trip" value="Mt. Everest Challenge Marathon (4 Day Trip)">
+    <label for="everestMarathon"> Mt. Everest Challenge Marathon  (4 day Trip)</label>
+    <Input type="checkbox" id="Bike Rally" name="trip" value="Mt. Everest Bike Rally">
+        <label for="everestMarathon"> Mt. Everest Bike Rally </label>
+
+        <br> 
+
+      <br> 
+
+      <label> I am a </label><br>
+      <input type="checkbox" id="Runner" name="activity" value="Runner">
+      <label for="runner">Runner</label>
+      <input type="checkbox" id="Walker" name="activity" value="Walker">
+      <label for="Walker">Walker</label>
+      <input type="checkbox" id="Cyclist" name="activity" value="Cyclist">
+      <label for="Cyclist">Cyclist</label><br><br>  
+
+      <label> T-Shirt Size</label><br>
+      <input type="radio" id="small" name="tshirtsize" value="Small">
+      <label for="Small">Small</label>
+      <input type="radio" id="Medium" name="tshirtsize" value="Medium">
+      <label for="Medium">Medium</label>
+      <input type="radio" id="Large" name="tshirtsize" value="Large">
+      <label for="Large">Large</label>
+      <input type="radio" id="X-Large" name="tshirtsize" value="X-Large">
+      <label for="X-large">X-Large</label><br><br>
+
+      <label> Smoker:</label><br>
+      <input type="radio" id="SmokerYes" name="Smoker" value="Yes">
+      <label for="SmokerYes">Yes</label>
+      <input type="radio" id="SmokerNo" name="tshirtsize" value="No">
+      <label for="SmokerNo">No</label><br><br>
+      
+      
+      <label for="RoomPreference">Room Sharing Preference:</label>
+      <input type="text" id="RoomPreference" name="RoomPreference"><br><br>
+
+      <label> Passport Details </label><br>
+      <label for="PassportName">Exact name as it appears:</label>
+      <input type="text" id="Passportname" name="PassportName"><br><br>
+
+      <label for="Dateissued">Date issued:</label>
+      <input type="date" id="Date issued" name="Dateissued"><br><br>
